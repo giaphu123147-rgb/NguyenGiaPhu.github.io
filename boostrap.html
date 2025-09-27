@@ -20,6 +20,7 @@
 
   <body>
     <div class="container">
+      <!-- noi dung -->
       <div class="row">
         <!-- side bar -->
         <aside class="col">
@@ -60,6 +61,81 @@
       </div>
     </div>
 
+    <form class="row g-3">
+      <div class="col-auto">
+        <label for="staticEmail2" class="visually-hidden">Email</label>
+        <input
+          type="text"
+          readonly
+          class="form-control-plaintext"
+          id="email_login"
+          value="email@example.com"
+        />
+      </div>
+      <div class="col-auto">
+        <label for="inputPassword2" class="visually-hidden">Password</label>
+        <input
+          type="password"
+          class="form-control"
+          id="inputPassword2"
+          placeholder="Password"
+        />
+      </div>
+      <div class="col-auto">
+        <button
+          type="submit"
+          class="btn btn-primary mb-3"
+          style="background-color: rgb(255, 0, 0) !important"
+        >
+          Confirm identity
+        </button>
+      </div>
+    </form>
+    <!--                  -->
+    <div class="form-check form-switch">
+      <input
+        class="form-check-input"
+        type="checkbox"
+        id="flexSwitchCheckDefault"
+      />
+      <label class="form-check-label" for="flexSwitchCheckDefault"
+        >Default switch checkbox input</label
+      >
+    </div>
+    <div class="form-check form-switch">
+      <input
+        class="form-check-input"
+        type="checkbox"
+        id="flexSwitchCheckChecked"
+        checked
+      />
+      <label class="form-check-label" for="flexSwitchCheckChecked"
+        >Checked switch checkbox input</label
+      >
+    </div>
+    <div class="form-check form-switch">
+      <input
+        class="form-check-input"
+        type="checkbox"
+        id="flexSwitchCheckDisabled"
+        disabled
+      />
+      <label class="form-check-label" for="flexSwitchCheckDisabled"
+        >Disabled switch checkbox input</label
+      >
+    </div>
+    <div class="form-check form-switch">
+      <input
+        class="form-check-input"
+        type="checkbox"
+        id="flexSwitchCheckCheckedDisabled"
+        checked
+        disabled
+      />
+      <label class="form-check-label" for="flexSwitchCheckCheckedDisabled"
+        >Disabled checked switch checkbox input</label
+      >
+    </div>
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -72,5 +148,6 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+    <script scr="./script.js" type="module"></script>
   </body>
 </html>
